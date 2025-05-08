@@ -1,0 +1,36 @@
+# CS661 Assignment 2 Group 24
+24_241110035_241110089_Assignment2
+
+Khushwant Kaswan - 241110035 - khushwantk24@iitk.ac.in
+
+Senthil Ganesh - 241110089 - senthil24@iitk.ac.in
+
+In case of any error while running the code, please contact any of the group members.
+
+---
+
+Install the required packages (in virtual env):
+
+```bash
+python3 -m venv myenv`
+source myenv/bin/activate
+pip install plotly ipywidgets numpy vtk jupyter
+```
+
+Alternatively we have added requirments.txt containing all python packages of our virtual env.
+You can also do the following:
+
+```bash
+pip install -r requirments.txt
+```
+
+Code is running fine in both vscode and Jupyter Labs.
+
+Demo video of both present in the folder as Demo-1 and Demo-2.
+
+---
+
+
+Jupyter Labs issue: One of the plot or both disappers on first run.
+This issue typically occurs due to timing/initialization differences between Jupyter Lab's widget rendering and Plotly's Figure display.We can just move the slider and everything will work fine as expected.
+
